@@ -1,0 +1,17 @@
+body{
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 50px;
+}
+
+#nav-links{
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+}
