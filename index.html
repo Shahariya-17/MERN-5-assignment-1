@@ -1,26 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment-1</title>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .font-inter {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body class="font-inter">
     <header>
-        <nav class="navbar">
-            <div>
-                <ul  id="nav-links">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Product</a></li>
-                    <li><a href="">Category</a></li>
-                    <li><a href="">Sale</a></li>
-                </ul>
-            </div>
-            <div>
-                <p>MEJIWOO</p>
-            </div>
-        </nav>
+      <nav class="navbar">
+        <div>
+          <ul id="nav-links">
+            <li><a href="">Home</a></li>
+            <li><a href="">Product</a></li>
+            <li><a href="">Category</a></li>
+            <li><a href="">Sale</a></li>
+          </ul>
+        </div>
+        <div>
+          <p>MEJIWOO</p>
+        </div>
+      </nav>
     </header>
-</body>
-<link rel="stylesheet" href="styles/style.css">
+
+    <main>
+      <!-- Banner section -->
+      <div></div>
+
+      <!-- Season Collections section -->
+      <section class="collection">
+        <h2 id="collection-heading">Season Collections</h2>
+
+        <div class="cards">
+          <!-- Card 1 -->
+          <div class="card">
+            <img src="../../assets/product/product1.png" alt="Spring Collection" />
+            <p>SPRING</p>
+            <button>MORE</button>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card">
+            <img src="../../assets/product/product2.png" alt="Summer Collection" />
+            <p>SUMMER</p>
+            <button>MORE</button>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card">
+            <img src="../../assets/product/product3.png" alt="Winter Collection" />
+            <p>WINTER</p>
+            <button>MORE</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <link rel="stylesheet" href="styles/style.css" />
 </html>
